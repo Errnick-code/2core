@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.errnicraft.twocore.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FabricLoaderMixin",
+    "GameProviderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
